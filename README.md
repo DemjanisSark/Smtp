@@ -14,11 +14,11 @@
 - Откройте файл конфигурации Postfix, который находится в /etc/postfix/main.cf
 - Найдите и измените следующие параметры:
 
-	`myhostname = localhost
+	`myhostname = localhost`
 	
-	mydestination = localhost.localdomain, localhost
+	`mydestination = localhost.localdomain, localhost`
 	
-	mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128`
+	`mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128`
 
 - Сохраните изменения и закройте файл конфигурации.
 
